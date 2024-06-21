@@ -1,0 +1,11 @@
+package com.smhrd.myapp;
+
+public class MemberVO {
+
+	private String userid ;
+	
+	private String pw;
+	
+	private String role;
+	
+}

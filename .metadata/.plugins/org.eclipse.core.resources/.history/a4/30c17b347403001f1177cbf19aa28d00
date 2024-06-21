@@ -1,0 +1,15 @@
+package com.smhrd.myapp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.smhrd.myapp.vo.MemberVO;
+
+@Controller
+public class ServiceController {
+	@PostMapping("/login-process")
+	public String loginprocess(MemberVO vo) {
+		
+		return "redirect:/dashboard";
+	}
+}

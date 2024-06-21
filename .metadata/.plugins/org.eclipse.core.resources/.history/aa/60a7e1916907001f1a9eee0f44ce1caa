@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.book.bshop.BookMapper">
+
+<select id="/bookList.do" resultType="kr.book.bshop.vo.BookVO">
+	SELECT * FROM tbl_book;
+</select>
+
+
+<insert id="/bookInsert.do" parameterType="kr.book.bshop.vo.BookVO">
+	INSERT INTO tbl_book(NUM,TITLE,AUTHOR,COMPANY,ISBN,COUNT)
+	VALUES((#{NUM},#{TITLE},#{AUTHOR},#{COMPANY},#{ISBN},#{COUNT))
+</insert>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

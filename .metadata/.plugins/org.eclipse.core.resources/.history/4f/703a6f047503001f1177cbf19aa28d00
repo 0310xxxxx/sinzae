@@ -1,0 +1,44 @@
+package com.smhrd.myapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.smhrd.myapp.mapper.MemberMapper;
+
+
+@Controller
+public class viewcontroller {
+	
+	@Autowired
+	private MemberMapper mapper ;
+	
+	pub
+	
+	
+	@GetMapping("/")
+	public String login() {
+		return "login";
+	}
+	@GetMapping("/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping("/user")
+	public String user() {
+		return "user";
+	}
+	
+	@GetMapping("/dashboard")
+	public String dashboard() {
+		return "dashboard";
+	}
+	
+	@GetMapping("/admin")
+	public String admin() {
+		return "admin";
+	}
+	
+}
+

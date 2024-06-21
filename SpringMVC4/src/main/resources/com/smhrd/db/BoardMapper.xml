@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.db.BoardMapper">
+
+	<select id="boardList" resultType="com.smhrd.model.BoardVO">
+		SELECT * FROM BOARD
+
+	</select>
+
+
+	<insert id="register" parameterType="com.smhrd.model.BoardVO">
+		INSERT INTO
+		BOARD(TITLE,WRITER,CONTENT)
+		VALUES(#{title},#{writer},#{content})
+	</insert>
+
+
+	<update id="boardEdit" parameterType="com.smhrd.model.BoardVO">
+
+	</update>
+
+	<select id="search" resultType="com.smhrd.model.BoardVO"
+		parameterType="com.smhrd.model.SearchCriteria">
+		SELECT * FROM BOARD
+		<include refid="searchOption"/>
+	</select>
+
+
+	<sql id="searchOption">
+
+		<if test="type == '작성자'">
+			WHERE WRITER LIKE CONCAT('%',#{text},'%')
+		</if>
+		<!-- 타입이 제목이었을 때 sql 구문 작성 -->
+		<if test="type == '제목'">
+			WHERE TITLE LIKE CONCAT('%',#{text},'%')
+		</if>		
+		
+	</sql>
+
+	<select id="autocomplete" resultType="com.smhrd.model.BoardVO" parameterType="com.smhrd.model.SearchCriteria">
+	
+	<include refid="completeOption"/>
+	FROM BOARD
+
+	
+	
+	
+	
+	</select>
+
+	<sql id="completeOption">
+		<if test="type=='작성자'">
+			SELECT DISTINCT(WRITER)
+		</if>
+		
+		<if test="type=='제목'">
+			SELECT DISTINCT(TITLE)
+		</if>
+	
+	
+	
+	
+	</sql>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,5 @@
+package kr.book.bshop.vo;
+
+public class BookVO {
+
+}
