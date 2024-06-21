@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
@@ -56,4 +57,6 @@
 			<item value="ser"/>
 		</list>
 	</section>
+=======
+>>>>>>> e64e1246af7f6df8f980fea4ec91bcc24c5b940a
 </section>

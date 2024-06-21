@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.smhrd.model.boardVO"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -61,3 +62,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="kr.book.bshop.vo.BookVO"/>
 </qualifiedTypeNameHistroy>
+=======
+<qualifiedTypeNameHistroy/>
+>>>>>>> e64e1246af7f6df8f980fea4ec91bcc24c5b940a
