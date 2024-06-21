@@ -1,0 +1,11 @@
+package com.smhrd.myapp.config;
+
+import org.springframework.context.annotation.Configuration;
+
+
+// 해당하는 파일이 환경설정 파일임을 나타냄
+// --> 해당 클래스 안쪽에서 @Bean(객체)들을 하나 이상 정의할 수 있게 해줌.
+@Configuration
+public class SecurityConfiguration {
+
+}

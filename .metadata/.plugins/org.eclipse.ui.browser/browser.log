@@ -1,0 +1,49 @@
+
+4월 15, 2024 11:25:25.73 NEW SESSION
+4월 15, 2024 11:25:25.74 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 15, 2024 12:06:50.46 NEW SESSION
+4월 15, 2024 12:06:50.47 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 16, 2024 09:18:29.25 NEW SESSION
+4월 16, 2024 09:18:29.27 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 16, 2024 09:48:29.97 [4844:3800:0416/094829.978:ERROR:cert_verify_proc_builtin.cc(878)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+4월 16, 2024 09:48:29.97 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+4월 16, 2024 09:48:29.97 ERROR: Time is after notAfter
+4월 16, 2024 09:48:29.97 
+4월 16, 2024 09:48:29.98 
+4월 16, 2024 09:50:44.67 [4844:3800:0416/095044.678:ERROR:cert_issuer_source_aia.cc(136)] AiaRequest::OnFetchCompleted got error -7
+4월 16, 2024 09:50:44.68 [4844:3800:0416/095044.678:ERROR:cert_verify_proc_builtin.cc(878)] CertVerifyProcBuiltin for nf.q-net.or.kr failed:
+4월 16, 2024 09:50:44.68 ----- Certificate i=0 (CN=*.q-net.or.kr,O=Human Resources Development Service of Korea,L=Jung-gu,ST=Ulsan,C=KR) -----
+4월 16, 2024 09:50:44.68 ERROR: No matching issuer found
+4월 16, 2024 09:50:44.68 
+4월 16, 2024 09:50:44.68 
+
+4월 17, 2024 09:25:42.34 NEW SESSION
+4월 17, 2024 09:25:42.35 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 23, 2024 09:15:37.98 NEW SESSION
+4월 23, 2024 09:15:37.99 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 23, 2024 09:22:21.58 [11060:10652:0423/092221.581:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 23, 2024 09:50:49.60 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 23, 2024 10:09:52.72 [7268:17340:0423/100952.725:ERROR:device_event_log_impl.cc(195)] [10:09:52.725] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+4월 23, 2024 12:10:08.10 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 23, 2024 12:15:05.18 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 24, 2024 11:27:42.97 NEW SESSION
+4월 24, 2024 11:27:42.98 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 24, 2024 11:28:31.93 [1800:6172:0424/112831.932:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 24, 2024 12:27:54.38 [1800:6172:0424/122754.387:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+4월 26, 2024 09:59:03.33 NEW SESSION
+4월 26, 2024 09:59:03.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 26, 2024 10:21:13.66 NEW SESSION
+4월 26, 2024 10:21:13.67 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 26, 2024 10:48:53.59 [21428:17476:0426/104853.593:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 26, 2024 10:49:37.36 [21428:17476:0426/104937.369:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+4월 26, 2024 10:52:54.40 [21428:17476:0426/105254.404:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+4월 26, 2024 11:38:43.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 26, 2024 11:41:00.76 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 26, 2024 11:42:25.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 26, 2024 12:03:47.85 Created TensorFlow Lite XNNPACK delegate for CPU.

@@ -1,0 +1,21 @@
+package com.smhrd.myapp.entity;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+
+public class Member {
+	
+	
+	private long idx;
+	private String userld;
+	private String pw;
+	private String role;
+	
+}

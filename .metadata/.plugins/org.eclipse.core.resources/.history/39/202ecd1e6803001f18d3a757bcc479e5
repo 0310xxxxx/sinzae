@@ -1,0 +1,19 @@
+package com.smhrd.myapp.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class viewcontroller {
+	
+	@GetMapping("/")
+	public String login() {
+		return "login";
+	}
+	@GetMapping("/join")
+	public String join() {
+		return "login";
+	}
+	
+	public String user() {
+		return "user
+	}
+}

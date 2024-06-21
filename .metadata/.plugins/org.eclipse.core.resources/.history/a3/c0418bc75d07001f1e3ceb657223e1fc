@@ -1,0 +1,7 @@
+package kr.book.bshop.mapper;
+
+public interface BookMapper {
+
+	public List<BookVO> BookList();
+	
+}

@@ -1,0 +1,21 @@
+package com.smhrd.myapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.smhrd.myapp.dto.MemberVO;
+import com.smhrd.myapp.repo.MemberRepository;
+
+@Controller
+public class ServiceController {
+	
+	@Autowired
+	private MemberRepository mapper;
+	
+	@PostMapping("/login-process")
+	public String loginprocess(MemberVO vo) {
+		
+		return "redirect:/dashboard";
+	}
+}

@@ -1,0 +1,11 @@
+package com.smhrd.myapp.entity;
+
+public class Member {
+	
+	
+	private long idx;
+	private String userld;
+	private String pw;
+	private String role;
+	
+}

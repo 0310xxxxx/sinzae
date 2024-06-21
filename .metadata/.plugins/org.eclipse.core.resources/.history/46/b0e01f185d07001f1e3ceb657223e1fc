@@ -1,0 +1,23 @@
+package kr.book.bshop.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import kr.book.bshop.vo.BookVO;
+
+@Controller
+public class Bookcontroller {
+	
+	@Autowired
+	private BookMapper mapper;
+
+	@RequestMapping("/bookList.do")
+	public void bookList(BookVO vo) {
+		List<BookVO> list = mapper.bookList();
+		BookVO.addAttribute("list",list);
+	}
+	
+}

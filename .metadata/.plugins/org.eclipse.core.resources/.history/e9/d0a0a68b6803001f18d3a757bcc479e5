@@ -1,0 +1,42 @@
+package com.smhrd.myapp.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+
+
+public class viewcontroller {
+	
+	@GetMapping("/")
+	public String login() {
+		return "login";
+	}
+	@GetMapping("/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping("/user")
+	public String user() {
+		return "user";
+	}
+	
+	@GetMapping("/dashboard")
+	public String dashboard() {
+		return "dashboard";
+	}
+	
+	@GetMapping("/admin")
+	public String admin() {
+		return "admin";
+	}
+	
+}
+
